@@ -525,6 +525,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 var rowsInSection: Int = TBL.numberOfRows(inSection: i)
                 sumSections += rowsInSection
             }
+            //comment
             currentRow = sumSections + indexPath.row + 1
             if currentRow % 3 == 0 && currentRow > 2{
                 adIndex = 0

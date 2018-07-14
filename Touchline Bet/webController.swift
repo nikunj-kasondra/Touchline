@@ -10,9 +10,11 @@ import UIKit
 
 class webController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let req = URLRequest(url:URL(string:"http://www.touchlinebet.com/ref.php?u=1xbet")!)
+        webView.loadRequest(req)
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +23,9 @@ class webController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func btnClose(_ sender: Any) {
+        self.navigationController?.popViewController(animated:true)
+    }
 
     /*
     // MARK: - Navigation

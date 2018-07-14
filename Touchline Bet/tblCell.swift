@@ -7,9 +7,19 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class tblCell: UITableViewCell {
 
+    @IBOutlet weak var bannerView: GADBannerView!
+    @IBOutlet weak var adsHeight: NSLayoutConstraint!
+    @IBOutlet weak var lblDate: UILabel!
+    @IBOutlet weak var lblClub: UILabel!
+    @IBOutlet weak var lblStatus: UILabel!
+    
+    @IBOutlet weak var dateWidth: NSLayoutConstraint!
+    @IBOutlet weak var flagImg: RemoteImageView!
+    
     @IBOutlet weak var lblTime: UILabel!
     
     @IBOutlet weak var lblAwayTeam: UILabel!

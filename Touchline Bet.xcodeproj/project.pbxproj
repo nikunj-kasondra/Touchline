@@ -9,19 +9,96 @@
 /* Begin PBXBuildFile section */
 		0703D9111E85864D00911D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703D9101E85864D00911D49 /* AppDelegate.swift */; };
 		0703D9131E85864D00911D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703D9121E85864D00911D49 /* ViewController.swift */; };
-		0703D9161E85864D00911D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0703D9141E85864D00911D49 /* Main.storyboard */; };
 		0703D9181E85864D00911D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0703D9171E85864D00911D49 /* Assets.xcassets */; };
 		0703D91B1E85864D00911D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0703D9191E85864D00911D49 /* LaunchScreen.storyboard */; };
+		0703D9241E85888400911D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0703D9231E85888400911D49 /* Main.storyboard */; };
+		0703D9331E8588FE00911D49 /* betController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703D9261E8588FE00911D49 /* betController.swift */; };
+		0703D9341E8588FE00911D49 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703D9271E8588FE00911D49 /* Constant.swift */; };
+		0703D9351E8588FE00911D49 /* continueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703D9281E8588FE00911D49 /* continueController.swift */; };
+		0703D9361E8588FE00911D49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0703D9291E8588FE00911D49 /* GoogleService-Info.plist */; };
+		0703D93A1E8588FE00911D49 /* policyVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0703D92D1E8588FE00911D49 /* policyVIew.xib */; };
+		0703D93B1E8588FE00911D49 /* RemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0703D92F1E8588FE00911D49 /* RemoteImageView.m */; };
+		0703D93C1E8588FE00911D49 /* tblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703D9311E8588FE00911D49 /* tblCell.swift */; };
+		0703D93D1E8588FE00911D49 /* tblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0703D9321E8588FE00911D49 /* tblCell.xib */; };
+		0703D94E1E85958500911D49 /* aboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703D94D1E85958500911D49 /* aboutView.swift */; };
+		07297D8E1EDDE22C00D56353 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07297D8D1EDDE22C00D56353 /* UIImage+Gif.swift */; };
+		07297D901EDDE54C00D56353 /* 728x90.gif in Resources */ = {isa = PBXBuildFile; fileRef = 07297D8F1EDDE54C00D56353 /* 728x90.gif */; };
+		07AE01B81EE1E57F004F5930 /* webController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE01B71EE1E57F004F5930 /* webController.swift */; };
+		07CA8EF8202F875B009DA0E2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA8EF7202F875B009DA0E2 /* Utility.swift */; };
+		07E163802035FCEA006B383F /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1636A2035FCEA006B383F /* Roboto-Black.ttf */; };
+		07E163812035FCEA006B383F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1636B2035FCEA006B383F /* Roboto-BlackItalic.ttf */; };
+		07E163822035FCEA006B383F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1636C2035FCEA006B383F /* Roboto-Bold.ttf */; };
+		07E163832035FCEA006B383F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1636D2035FCEA006B383F /* Roboto-BoldItalic.ttf */; };
+		07E163842035FCEA006B383F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1636E2035FCEA006B383F /* Roboto-Italic.ttf */; };
+		07E163852035FCEA006B383F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1636F2035FCEA006B383F /* Roboto-Light.ttf */; };
+		07E163862035FCEA006B383F /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163702035FCEA006B383F /* Roboto-LightItalic.ttf */; };
+		07E163872035FCEA006B383F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163712035FCEA006B383F /* Roboto-Medium.ttf */; };
+		07E163882035FCEA006B383F /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163722035FCEA006B383F /* Roboto-MediumItalic.ttf */; };
+		07E163892035FCEA006B383F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163732035FCEA006B383F /* Roboto-Regular.ttf */; };
+		07E1638A2035FCEA006B383F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163742035FCEA006B383F /* Roboto-Thin.ttf */; };
+		07E1638B2035FCEA006B383F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163752035FCEA006B383F /* Roboto-ThinItalic.ttf */; };
+		07E1638C2035FCEA006B383F /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163762035FCEA006B383F /* RobotoCondensed-Bold.ttf */; };
+		07E1638D2035FCEA006B383F /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163772035FCEA006B383F /* RobotoCondensed-BoldItalic.ttf */; };
+		07E1638E2035FCEA006B383F /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163782035FCEA006B383F /* RobotoCondensed-Italic.ttf */; };
+		07E1638F2035FCEA006B383F /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E163792035FCEA006B383F /* RobotoCondensed-Light.ttf */; };
+		07E163902035FCEA006B383F /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1637A2035FCEA006B383F /* RobotoCondensed-LightItalic.ttf */; };
+		07E163912035FCEA006B383F /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07E1637B2035FCEA006B383F /* RobotoCondensed-Regular.ttf */; };
+		07E163922035FCEA006B383F /* ROBOTOSLAB-BOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 07E1637C2035FCEA006B383F /* ROBOTOSLAB-BOLD.TTF */; };
+		07E163932035FCEA006B383F /* ROBOTOSLAB-LIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 07E1637D2035FCEA006B383F /* ROBOTOSLAB-LIGHT.TTF */; };
+		07E163942035FCEA006B383F /* ROBOTOSLAB-REGULAR.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 07E1637E2035FCEA006B383F /* ROBOTOSLAB-REGULAR.TTF */; };
+		07E163952035FCEA006B383F /* ROBOTOSLAB-THIN.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 07E1637F2035FCEA006B383F /* ROBOTOSLAB-THIN.TTF */; };
+		F866E34C02DFEB5D3272A392 /* Pods_Touchline_Bet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3440FDEF770F8B4D9AEC428 /* Pods_Touchline_Bet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0703D90D1E85864D00911D49 /* Touchline Bet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touchline Bet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0703D9101E85864D00911D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0703D9121E85864D00911D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0703D9151E85864D00911D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0703D9171E85864D00911D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0703D91A1E85864D00911D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0703D91C1E85864D00911D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0703D9221E8586F200911D49 /* Touchline Bet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Touchline Bet.entitlements"; path = "Touchline Bet/Touchline Bet.entitlements"; sourceTree = "<group>"; };
+		0703D9231E85888400911D49 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0703D9251E8588FD00911D49 /* Touchline Bet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Touchline Bet-Bridging-Header.h"; path = "Touchline Bet/Touchline Bet-Bridging-Header.h"; sourceTree = "<group>"; };
+		0703D9261E8588FE00911D49 /* betController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = betController.swift; sourceTree = "<group>"; };
+		0703D9271E8588FE00911D49 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0703D9281E8588FE00911D49 /* continueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = continueController.swift; sourceTree = "<group>"; };
+		0703D9291E8588FE00911D49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0703D92D1E8588FE00911D49 /* policyVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = policyVIew.xib; sourceTree = "<group>"; };
+		0703D92E1E8588FE00911D49 /* RemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageView.h; sourceTree = "<group>"; };
+		0703D92F1E8588FE00911D49 /* RemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageView.m; sourceTree = "<group>"; };
+		0703D9311E8588FE00911D49 /* tblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCell.swift; sourceTree = "<group>"; };
+		0703D9321E8588FE00911D49 /* tblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tblCell.xib; sourceTree = "<group>"; };
+		0703D94D1E85958500911D49 /* aboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutView.swift; sourceTree = "<group>"; };
+		07297D8D1EDDE22C00D56353 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		07297D8F1EDDE54C00D56353 /* 728x90.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 728x90.gif; sourceTree = "<group>"; };
+		07AE01B71EE1E57F004F5930 /* webController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webController.swift; sourceTree = "<group>"; };
+		07CA8EF7202F875B009DA0E2 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		07E1636A2035FCEA006B383F /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		07E1636B2035FCEA006B383F /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		07E1636C2035FCEA006B383F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		07E1636D2035FCEA006B383F /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		07E1636E2035FCEA006B383F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		07E1636F2035FCEA006B383F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		07E163702035FCEA006B383F /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		07E163712035FCEA006B383F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		07E163722035FCEA006B383F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		07E163732035FCEA006B383F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		07E163742035FCEA006B383F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		07E163752035FCEA006B383F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		07E163762035FCEA006B383F /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		07E163772035FCEA006B383F /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		07E163782035FCEA006B383F /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		07E163792035FCEA006B383F /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		07E1637A2035FCEA006B383F /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		07E1637B2035FCEA006B383F /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		07E1637C2035FCEA006B383F /* ROBOTOSLAB-BOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ROBOTOSLAB-BOLD.TTF"; sourceTree = "<group>"; };
+		07E1637D2035FCEA006B383F /* ROBOTOSLAB-LIGHT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ROBOTOSLAB-LIGHT.TTF"; sourceTree = "<group>"; };
+		07E1637E2035FCEA006B383F /* ROBOTOSLAB-REGULAR.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ROBOTOSLAB-REGULAR.TTF"; sourceTree = "<group>"; };
+		07E1637F2035FCEA006B383F /* ROBOTOSLAB-THIN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ROBOTOSLAB-THIN.TTF"; sourceTree = "<group>"; };
+		36239F677500659746A612FE /* Pods-Touchline Bet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchline Bet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Touchline Bet/Pods-Touchline Bet.debug.xcconfig"; sourceTree = "<group>"; };
+		87CD9180393E250809BB1E4B /* Pods-Touchline Bet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchline Bet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Touchline Bet/Pods-Touchline Bet.release.xcconfig"; sourceTree = "<group>"; };
+		F3440FDEF770F8B4D9AEC428 /* Pods_Touchline_Bet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Touchline_Bet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F866E34C02DFEB5D3272A392 /* Pods_Touchline_Bet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +116,13 @@
 		0703D9041E85864D00911D49 = {
 			isa = PBXGroup;
 			children = (
+				0703D9251E8588FD00911D49 /* Touchline Bet-Bridging-Header.h */,
+				0703D9221E8586F200911D49 /* Touchline Bet.entitlements */,
+				07E163692035FCEA006B383F /* Font */,
 				0703D90F1E85864D00911D49 /* Touchline Bet */,
 				0703D90E1E85864D00911D49 /* Products */,
+				1B130DD313801896502D2304 /* Pods */,
+				C253E7263958B1D6BF02C7DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +137,74 @@
 		0703D90F1E85864D00911D49 /* Touchline Bet */ = {
 			isa = PBXGroup;
 			children = (
+				07297D8D1EDDE22C00D56353 /* UIImage+Gif.swift */,
+				07297D8F1EDDE54C00D56353 /* 728x90.gif */,
+				0703D94D1E85958500911D49 /* aboutView.swift */,
+				0703D9261E8588FE00911D49 /* betController.swift */,
+				0703D9271E8588FE00911D49 /* Constant.swift */,
+				0703D9281E8588FE00911D49 /* continueController.swift */,
+				0703D9291E8588FE00911D49 /* GoogleService-Info.plist */,
+				0703D92D1E8588FE00911D49 /* policyVIew.xib */,
+				0703D92E1E8588FE00911D49 /* RemoteImageView.h */,
+				0703D92F1E8588FE00911D49 /* RemoteImageView.m */,
+				0703D9311E8588FE00911D49 /* tblCell.swift */,
+				0703D9321E8588FE00911D49 /* tblCell.xib */,
+				0703D9231E85888400911D49 /* Main.storyboard */,
 				0703D9101E85864D00911D49 /* AppDelegate.swift */,
 				0703D9121E85864D00911D49 /* ViewController.swift */,
-				0703D9141E85864D00911D49 /* Main.storyboard */,
 				0703D9171E85864D00911D49 /* Assets.xcassets */,
 				0703D9191E85864D00911D49 /* LaunchScreen.storyboard */,
 				0703D91C1E85864D00911D49 /* Info.plist */,
+				07AE01B71EE1E57F004F5930 /* webController.swift */,
+				07CA8EF7202F875B009DA0E2 /* Utility.swift */,
 			);
 			path = "Touchline Bet";
+			sourceTree = "<group>";
+		};
+		07E163692035FCEA006B383F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				07E1636A2035FCEA006B383F /* Roboto-Black.ttf */,
+				07E1636B2035FCEA006B383F /* Roboto-BlackItalic.ttf */,
+				07E1636C2035FCEA006B383F /* Roboto-Bold.ttf */,
+				07E1636D2035FCEA006B383F /* Roboto-BoldItalic.ttf */,
+				07E1636E2035FCEA006B383F /* Roboto-Italic.ttf */,
+				07E1636F2035FCEA006B383F /* Roboto-Light.ttf */,
+				07E163702035FCEA006B383F /* Roboto-LightItalic.ttf */,
+				07E163712035FCEA006B383F /* Roboto-Medium.ttf */,
+				07E163722035FCEA006B383F /* Roboto-MediumItalic.ttf */,
+				07E163732035FCEA006B383F /* Roboto-Regular.ttf */,
+				07E163742035FCEA006B383F /* Roboto-Thin.ttf */,
+				07E163752035FCEA006B383F /* Roboto-ThinItalic.ttf */,
+				07E163762035FCEA006B383F /* RobotoCondensed-Bold.ttf */,
+				07E163772035FCEA006B383F /* RobotoCondensed-BoldItalic.ttf */,
+				07E163782035FCEA006B383F /* RobotoCondensed-Italic.ttf */,
+				07E163792035FCEA006B383F /* RobotoCondensed-Light.ttf */,
+				07E1637A2035FCEA006B383F /* RobotoCondensed-LightItalic.ttf */,
+				07E1637B2035FCEA006B383F /* RobotoCondensed-Regular.ttf */,
+				07E1637C2035FCEA006B383F /* ROBOTOSLAB-BOLD.TTF */,
+				07E1637D2035FCEA006B383F /* ROBOTOSLAB-LIGHT.TTF */,
+				07E1637E2035FCEA006B383F /* ROBOTOSLAB-REGULAR.TTF */,
+				07E1637F2035FCEA006B383F /* ROBOTOSLAB-THIN.TTF */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1B130DD313801896502D2304 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36239F677500659746A612FE /* Pods-Touchline Bet.debug.xcconfig */,
+				87CD9180393E250809BB1E4B /* Pods-Touchline Bet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C253E7263958B1D6BF02C7DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3440FDEF770F8B4D9AEC428 /* Pods_Touchline_Bet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0703D91F1E85864D00911D49 /* Build configuration list for PBXNativeTarget "Touchline Bet" */;
 			buildPhases = (
+				77A3BCF1311EC270CC926354 /* [CP] Check Pods Manifest.lock */,
 				0703D9091E85864D00911D49 /* Sources */,
 				0703D90A1E85864D00911D49 /* Frameworks */,
 				0703D90B1E85864D00911D49 /* Resources */,
+				6390403EDC5C3E1B2BCC0F10 /* [CP] Embed Pods Frameworks */,
+				10C407B882381B2448FF1614 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +242,13 @@
 				TargetAttributes = {
 					0703D90C1E85864D00911D49 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,35 +275,110 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E163942035FCEA006B383F /* ROBOTOSLAB-REGULAR.TTF in Resources */,
+				07E163922035FCEA006B383F /* ROBOTOSLAB-BOLD.TTF in Resources */,
+				07297D901EDDE54C00D56353 /* 728x90.gif in Resources */,
+				07E163952035FCEA006B383F /* ROBOTOSLAB-THIN.TTF in Resources */,
+				07E163842035FCEA006B383F /* Roboto-Italic.ttf in Resources */,
+				07E163862035FCEA006B383F /* Roboto-LightItalic.ttf in Resources */,
+				07E163832035FCEA006B383F /* Roboto-BoldItalic.ttf in Resources */,
+				0703D93A1E8588FE00911D49 /* policyVIew.xib in Resources */,
+				07E163872035FCEA006B383F /* Roboto-Medium.ttf in Resources */,
+				07E163902035FCEA006B383F /* RobotoCondensed-LightItalic.ttf in Resources */,
+				07E1638C2035FCEA006B383F /* RobotoCondensed-Bold.ttf in Resources */,
+				07E163822035FCEA006B383F /* Roboto-Bold.ttf in Resources */,
+				07E1638F2035FCEA006B383F /* RobotoCondensed-Light.ttf in Resources */,
+				0703D93D1E8588FE00911D49 /* tblCell.xib in Resources */,
+				07E1638A2035FCEA006B383F /* Roboto-Thin.ttf in Resources */,
+				07E163802035FCEA006B383F /* Roboto-Black.ttf in Resources */,
+				07E163932035FCEA006B383F /* ROBOTOSLAB-LIGHT.TTF in Resources */,
+				07E163812035FCEA006B383F /* Roboto-BlackItalic.ttf in Resources */,
+				0703D9241E85888400911D49 /* Main.storyboard in Resources */,
+				07E163852035FCEA006B383F /* Roboto-Light.ttf in Resources */,
+				07E1638D2035FCEA006B383F /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				07E1638E2035FCEA006B383F /* RobotoCondensed-Italic.ttf in Resources */,
+				07E163882035FCEA006B383F /* Roboto-MediumItalic.ttf in Resources */,
+				0703D9361E8588FE00911D49 /* GoogleService-Info.plist in Resources */,
+				07E163892035FCEA006B383F /* Roboto-Regular.ttf in Resources */,
+				07E1638B2035FCEA006B383F /* Roboto-ThinItalic.ttf in Resources */,
 				0703D91B1E85864D00911D49 /* LaunchScreen.storyboard in Resources */,
+				07E163912035FCEA006B383F /* RobotoCondensed-Regular.ttf in Resources */,
 				0703D9181E85864D00911D49 /* Assets.xcassets in Resources */,
-				0703D9161E85864D00911D49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C407B882381B2448FF1614 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchline Bet/Pods-Touchline Bet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6390403EDC5C3E1B2BCC0F10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchline Bet/Pods-Touchline Bet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A3BCF1311EC270CC926354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0703D9091E85864D00911D49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07AE01B81EE1E57F004F5930 /* webController.swift in Sources */,
 				0703D9131E85864D00911D49 /* ViewController.swift in Sources */,
+				0703D9331E8588FE00911D49 /* betController.swift in Sources */,
+				07CA8EF8202F875B009DA0E2 /* Utility.swift in Sources */,
+				0703D94E1E85958500911D49 /* aboutView.swift in Sources */,
+				07297D8E1EDDE22C00D56353 /* UIImage+Gif.swift in Sources */,
 				0703D9111E85864D00911D49 /* AppDelegate.swift in Sources */,
+				0703D93C1E8588FE00911D49 /* tblCell.swift in Sources */,
+				0703D9351E8588FE00911D49 /* continueController.swift in Sources */,
+				0703D93B1E8588FE00911D49 /* RemoteImageView.m in Sources */,
+				0703D9341E8588FE00911D49 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0703D9141E85864D00911D49 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0703D9151E85864D00911D49 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0703D9191E85864D00911D49 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -184,7 +411,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -206,6 +434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4031c6cb-2d91-4f59-a6b8-a5b2093f351f";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -233,7 +462,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -248,6 +478,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4031c6cb-2d91-4f59-a6b8-a5b2093f351f";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -256,24 +487,47 @@
 		};
 		0703D9201E85864D00911D49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36239F677500659746A612FE /* Pods-Touchline Bet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Touchline Bet/Touchline Bet.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Touchline Bet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nikunj.Touchline-Bet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchlinebet.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4031c6cb-2d91-4f59-a6b8-a5b2093f351f";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Touchline Bet/Touchline Bet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		0703D9211E85864D00911D49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CD9180393E250809BB1E4B /* Pods-Touchline Bet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Touchline Bet/Touchline Bet.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stanley Utoh (6V7Y4379GL)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Touchline Bet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nikunj.Touchline-Bet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchlinebet.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4031c6cb-2d91-4f59-a6b8-a5b2093f351f";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Touchline Bet/Touchline Bet-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +551,7 @@
 				0703D9211E85864D00911D49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

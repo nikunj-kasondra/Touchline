@@ -50,6 +50,7 @@ class betController: UIViewController,GADBannerViewDelegate {
     }
     @IBAction func btnBack(_ sender: Any) {
         btnSelect = false
+        ViewController.firstTimePopup = true
         menuView.removeGestureRecognizer(gesture)
         UIView.animate(withDuration:0.1, animations: {
             self.menuView.isHidden = true
@@ -60,7 +61,7 @@ class betController: UIViewController,GADBannerViewDelegate {
     func callBetService(){
         hud = MBProgressHUD.showAdded(to:self.view, animated:true)
         hud.label.text = "Fetching data. Please wait..."
-        var request = URLRequest(url:URL(string:"http://touchlinebet.com/feedsv3/betslip.txt")!)
+        var request = URLRequest(url:URL(string:"http://touchlinebet.com/feedsv4/betslip.txt")!)
         request.httpMethod = "Get"
         request.cachePolicy = .reloadIgnoringLocalAndRemoteCacheData
         URLSession.shared.dataTask(with:request) { (data,response,error) in
